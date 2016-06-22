@@ -37,13 +37,13 @@ $　git checkout
 
 ---
 ### *開発環境　・　後編*  
-   1.  rbenv/ruby-buildをインストール
+-   1.  rbenv/ruby-buildをインストール
 ~~~
 yum install -y gcc bzip2 openssl-devel libyaml-devel libffi-devel readline-devel zlib-devel gdbm-devel ncurses-devel make net-tools
 ~~~
 
-   2. Rubyのインストール
-   ~~~
+-   2. Rubyのインストール
+~~~
    # インストール可能なRubyのリストを表示
    $ rbenv install --list  
    
@@ -52,10 +52,13 @@ yum install -y gcc bzip2 openssl-devel libyaml-devel libffi-devel readline-devel
    $ rbenv global 2.3.1 
    
    $ ruby -v
-   ~~~
-   3. Railsのインストール
-   ~~~
+~~~
+
+
+-   3. Railsのインストール
+~~~
    $ gem install rails 4.2.6 --no-ri --no-rdoc
    
    $ rails -v
-   ~~~
+~~~
+---
