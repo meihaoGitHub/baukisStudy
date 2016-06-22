@@ -23,3 +23,291 @@ Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0
 Processing by Rails::WelcomeController#index as HTML
   Rendered vendor/bundle/ruby/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
 Completed 200 OK in 36ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:38:10 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 956ms (Views: 932.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:38:12 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:38:12 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 308ms (Views: 287.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 312ms (Views: 289.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:51:08 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 988ms (Views: 966.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.33.1 at 2016-06-17 11:54:59 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered vendor/bundle/ruby/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 57ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:55:05 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 302ms (Views: 301.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:55:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 73ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.33.1 at 2016-06-22 09:38:48 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered vendor/bundle/ruby/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 46ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-22 09:38:56 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Staff::TopController#index as HTML
+  Rendered staff/top/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 420ms (Views: 418.7ms | ActiveRecord: 0.0ms)
