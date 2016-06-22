@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'staff/top#index'
   namespace :staff do
     root 'top#index'
   end
