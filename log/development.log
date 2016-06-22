@@ -1,313 +1,415 @@
-  [1m[36m (31.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
-  [1m[35m (31.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
-  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
 
 
-Started GET "/" for 192.168.33.1 at 2016-06-17 10:53:15 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Rails::WelcomeController#index as HTML
-  Rendered vendor/bundle/ruby/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
-Completed 200 OK in 38ms (Views: 17.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/rails/info/properties" for 192.168.33.1 at 2016-06-17 10:53:16 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Rails::InfoController#properties as */*
-  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
-  Rendered vendor/bundle/ruby/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/info/properties.html.erb (0.6ms)
-Completed 200 OK in 51ms (Views: 14.5ms | ActiveRecord: 3.6ms)
-
-
-Started GET "/" for 192.168.33.1 at 2016-06-17 11:12:23 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Rails::WelcomeController#index as HTML
-  Rendered vendor/bundle/ruby/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
-Completed 200 OK in 36ms (Views: 13.2ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:38:10 +0900
+Started GET "/staff/" for 192.168.33.1 at 2016-06-22 11:56:40 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (2.0ms)
-Completed 200 OK in 956ms (Views: 932.8ms | ActiveRecord: 0.0ms)
+  Rendered staff/top/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 4213ms (Views: 4181.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:38:12 +0900
+Started GET "/assets/application.self-291f5309ad019dd338789d4ae9a45ede176bb4a9d0f0b18a2b171db5ee61dbc1.css?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:38:12 +0900
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (1.7ms)
-Completed 200 OK in 308ms (Views: 287.1ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Started GET "/assets/tether/tether.self-773a384f6ba4aa122ee27d30041a3112a7a2f92d62a721b6c082c848c445f6d6.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Started GET "/assets/bootstrap/util.self-259befb5ba307350f3ed40e4ff1d27e6268e407ee0da02fd46435784459fc746.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Started GET "/assets/bootstrap/alert.self-44483afe785e8334f25977de4cc25db3b8ca7ef953e60d2eeda2deeeccfda56e.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:01 +0900
+Started GET "/assets/bootstrap/carousel.self-8e572923c87f450d7f38176167d96a27913dac0771100278265523b97f2bb074.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Started GET "/assets/bootstrap/collapse.self-4f8619d8d3fb252be59e65ef55b5a91dee275861b5d729c7e64f55091266984e.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Started GET "/assets/bootstrap/dropdown.self-77fbc8160624d6515b5d55fa40e7e7ba8f4ebe526b6007fe5a6bbc4437b46a1e.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Started GET "/assets/bootstrap/scrollspy.self-7474c149d14b6006919c68e8dd36423c169ef1c15b54a701b82e3931831fa434.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Started GET "/assets/bootstrap/modal.self-83fa21d21f8b68b3389ce5018b81be0ad967d65f1e08e3acd0d5c804e31e64a7.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Started GET "/assets/bootstrap/button.self-9a46ecb8ace47b217ba3ee88c7a8c7572b0ef75e77fff1b4e32ddf00af7fefe4.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Started GET "/assets/bootstrap/tab.self-7249bd863668fd4b877386598154c53466a77a853ae4d9ee2c45476fa3a361eb.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:36 +0900
+Started GET "/assets/bootstrap/tooltip.self-ff495cd6932165d4adceb3a8baec7340536f4d26b2fa14cd202e651ccc7f513a.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Started GET "/assets/bootstrap/popover.self-1b1efcd196ba075b0e9b7962c2a7631c8d7bcc7010e0140ad2c071cb0594a1d9.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 192.168.33.1 at 2016-06-22 11:56:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-22 11:59:20 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (0.2ms)
-Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+  Rendered staff/top/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Started GET "/assets/tether/tether.self-773a384f6ba4aa122ee27d30041a3112a7a2f92d62a721b6c082c848c445f6d6.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Started GET "/assets/application.self-291f5309ad019dd338789d4ae9a45ede176bb4a9d0f0b18a2b171db5ee61dbc1.css?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:46:38 +0900
+Started GET "/assets/bootstrap/util.self-259befb5ba307350f3ed40e4ff1d27e6268e407ee0da02fd46435784459fc746.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (2.5ms)
-Completed 200 OK in 312ms (Views: 289.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Started GET "/assets/bootstrap/alert.self-44483afe785e8334f25977de4cc25db3b8ca7ef953e60d2eeda2deeeccfda56e.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Started GET "/assets/bootstrap/carousel.self-8e572923c87f450d7f38176167d96a27913dac0771100278265523b97f2bb074.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Started GET "/assets/bootstrap/button.self-9a46ecb8ace47b217ba3ee88c7a8c7572b0ef75e77fff1b4e32ddf00af7fefe4.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Started GET "/assets/bootstrap/collapse.self-4f8619d8d3fb252be59e65ef55b5a91dee275861b5d729c7e64f55091266984e.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Started GET "/assets/bootstrap/dropdown.self-77fbc8160624d6515b5d55fa40e7e7ba8f4ebe526b6007fe5a6bbc4437b46a1e.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Started GET "/assets/bootstrap/modal.self-83fa21d21f8b68b3389ce5018b81be0ad967d65f1e08e3acd0d5c804e31e64a7.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:47:04 +0900
+Started GET "/assets/bootstrap/tab.self-7249bd863668fd4b877386598154c53466a77a853ae4d9ee2c45476fa3a361eb.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:51:08 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (2.0ms)
-Completed 200 OK in 988ms (Views: 966.9ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Started GET "/assets/bootstrap/scrollspy.self-7474c149d14b6006919c68e8dd36423c169ef1c15b54a701b82e3931831fa434.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Started GET "/assets/bootstrap/tooltip.self-ff495cd6932165d4adceb3a8baec7340536f4d26b2fa14cd202e651ccc7f513a.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Started GET "/assets/bootstrap/popover.self-1b1efcd196ba075b0e9b7962c2a7631c8d7bcc7010e0140ad2c071cb0594a1d9.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:21 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:51:09 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-
-
-Started GET "/" for 192.168.33.1 at 2016-06-17 11:54:59 +0900
-Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Rails::WelcomeController#index as HTML
-  Rendered vendor/bundle/ruby/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
-Completed 200 OK in 57ms (Views: 22.5ms | ActiveRecord: 0.0ms)
-
-
-Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:55:05 +0900
+Started GET "/staff/" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (0.9ms)
-Completed 200 OK in 302ms (Views: 301.3ms | ActiveRecord: 0.0ms)
+  Rendered staff/top/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 62ms (Views: 61.2ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tether/tether.self-773a384f6ba4aa122ee27d30041a3112a7a2f92d62a721b6c082c848c445f6d6.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-44483afe785e8334f25977de4cc25db3b8ca7ef953e60d2eeda2deeeccfda56e.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-9a46ecb8ace47b217ba3ee88c7a8c7572b0ef75e77fff1b4e32ddf00af7fefe4.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-4f8619d8d3fb252be59e65ef55b5a91dee275861b5d729c7e64f55091266984e.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/util.self-259befb5ba307350f3ed40e4ff1d27e6268e407ee0da02fd46435784459fc746.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-8e572923c87f450d7f38176167d96a27913dac0771100278265523b97f2bb074.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-291f5309ad019dd338789d4ae9a45ede176bb4a9d0f0b18a2b171db5ee61dbc1.css?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-77fbc8160624d6515b5d55fa40e7e7ba8f4ebe526b6007fe5a6bbc4437b46a1e.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-83fa21d21f8b68b3389ce5018b81be0ad967d65f1e08e3acd0d5c804e31e64a7.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-7474c149d14b6006919c68e8dd36423c169ef1c15b54a701b82e3931831fa434.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-7249bd863668fd4b877386598154c53466a77a853ae4d9ee2c45476fa3a361eb.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-ff495cd6932165d4adceb3a8baec7340536f4d26b2fa14cd202e651ccc7f513a.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-1b1efcd196ba075b0e9b7962c2a7631c8d7bcc7010e0140ad2c071cb0594a1d9.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (19.9ms)
-Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+  Rendered staff/top/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Started GET "/assets/application.self-291f5309ad019dd338789d4ae9a45ede176bb4a9d0f0b18a2b171db5ee61dbc1.css?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Started GET "/assets/tether/tether.self-773a384f6ba4aa122ee27d30041a3112a7a2f92d62a721b6c082c848c445f6d6.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:23 +0900
+Started GET "/assets/bootstrap/util.self-259befb5ba307350f3ed40e4ff1d27e6268e407ee0da02fd46435784459fc746.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/staff/" for 192.168.33.1 at 2016-06-17 11:55:45 +0900
+Started GET "/assets/bootstrap/button.self-9a46ecb8ace47b217ba3ee88c7a8c7572b0ef75e77fff1b4e32ddf00af7fefe4.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-44483afe785e8334f25977de4cc25db3b8ca7ef953e60d2eeda2deeeccfda56e.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-8e572923c87f450d7f38176167d96a27913dac0771100278265523b97f2bb074.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-4f8619d8d3fb252be59e65ef55b5a91dee275861b5d729c7e64f55091266984e.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-77fbc8160624d6515b5d55fa40e7e7ba8f4ebe526b6007fe5a6bbc4437b46a1e.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-83fa21d21f8b68b3389ce5018b81be0ad967d65f1e08e3acd0d5c804e31e64a7.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-7474c149d14b6006919c68e8dd36423c169ef1c15b54a701b82e3931831fa434.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-7249bd863668fd4b877386598154c53466a77a853ae4d9ee2c45476fa3a361eb.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-1b1efcd196ba075b0e9b7962c2a7631c8d7bcc7010e0140ad2c071cb0594a1d9.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-ff495cd6932165d4adceb3a8baec7340536f4d26b2fa14cd202e651ccc7f513a.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 192.168.33.1 at 2016-06-22 11:59:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/staff/" for 192.168.33.1 at 2016-06-22 12:00:01 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (12.5ms)
-Completed 200 OK in 73ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+  Rendered staff/top/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/assets/staff/top.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:01 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:01 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:01 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Started GET "/assets/tether/tether.self-773a384f6ba4aa122ee27d30041a3112a7a2f92d62a721b6c082c848c445f6d6.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:01 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Started GET "/assets/tether.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:01 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/staff/top.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Started GET "/assets/application.self-291f5309ad019dd338789d4ae9a45ede176bb4a9d0f0b18a2b171db5ee61dbc1.css?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.33.1 at 2016-06-17 11:55:46 +0900
+Started GET "/assets/bootstrap/util.self-259befb5ba307350f3ed40e4ff1d27e6268e407ee0da02fd46435784459fc746.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 
 
-Started GET "/" for 192.168.33.1 at 2016-06-22 09:38:48 +0900
+Started GET "/assets/bootstrap/alert.self-44483afe785e8334f25977de4cc25db3b8ca7ef953e60d2eeda2deeeccfda56e.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Rails::WelcomeController#index as HTML
-  Rendered vendor/bundle/ruby/2.3.0/gems/railties-4.2.6/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
-Completed 200 OK in 46ms (Views: 22.8ms | ActiveRecord: 0.0ms)
 
 
-Started GET "/staff/" for 192.168.33.1 at 2016-06-22 09:38:56 +0900
+Started GET "/assets/bootstrap/button.self-9a46ecb8ace47b217ba3ee88c7a8c7572b0ef75e77fff1b4e32ddf00af7fefe4.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
-Processing by Staff::TopController#index as HTML
-  Rendered staff/top/index.html.erb within layouts/application (14.1ms)
-Completed 200 OK in 420ms (Views: 418.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/carousel.self-8e572923c87f450d7f38176167d96a27913dac0771100278265523b97f2bb074.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-4f8619d8d3fb252be59e65ef55b5a91dee275861b5d729c7e64f55091266984e.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-77fbc8160624d6515b5d55fa40e7e7ba8f4ebe526b6007fe5a6bbc4437b46a1e.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-83fa21d21f8b68b3389ce5018b81be0ad967d65f1e08e3acd0d5c804e31e64a7.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-7474c149d14b6006919c68e8dd36423c169ef1c15b54a701b82e3931831fa434.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-7249bd863668fd4b877386598154c53466a77a853ae4d9ee2c45476fa3a361eb.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-ff495cd6932165d4adceb3a8baec7340536f4d26b2fa14cd202e651ccc7f513a.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-636159b35205da4142a43bc02d2849d77d3ac07a0946211585cde15a9c6ff21f.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-1b1efcd196ba075b0e9b7962c2a7631c8d7bcc7010e0140ad2c071cb0594a1d9.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 192.168.33.1 at 2016-06-22 12:00:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
