@@ -19,6 +19,9 @@ $　git branch
 
 # ブランチを切替    
 $　git checkout 
+
+# git 整理
+$ git rm -r --cached .
 ~~~
 
 ---
