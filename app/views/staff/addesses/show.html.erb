@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Postalcode:</strong>
+  <%= @staff_addess.postalCode %>
+</p>
+
+<p>
+  <strong>Addessinfo:</strong>
+  <%= @staff_addess.addessInfo %>
+</p>
+
+<%= link_to 'Edit', edit_staff_addess_path(@staff_addess) %> |
+<%= link_to 'Back', staff_addesses_path %>
