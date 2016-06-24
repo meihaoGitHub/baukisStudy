@@ -1,8 +1,10 @@
+<% @title = t('view.title_addess') %>
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Staff Addesses</h1>
+<h1><%= @title %></h1>
 
-<table>
+
+<table class="table">
   <thead>
     <tr>
       <th>Postalcode</th>
@@ -11,7 +13,7 @@
     </tr>
   </thead>
 
-  <tbody>
+  <tbody class="product-index">
     <% @staff_addesses.each do |staff_addess| %>
       <tr>
         <td><%= staff_addess.postalCode %></td>
@@ -23,7 +25,6 @@
     <% end %>
   </tbody>
 </table>
-
 <br>
 
 <%= link_to 'New Addess', new_staff_addess_path %>

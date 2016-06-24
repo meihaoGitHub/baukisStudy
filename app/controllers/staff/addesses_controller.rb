@@ -28,7 +28,7 @@ class Staff::AddessesController < ApplicationController
 
     respond_to do |format|
       if @staff_addess.save
-        format.html { redirect_to @staff_addess, notice: 'Addess was successfully created.' }
+        format.html { redirect_to @staff_addess, notice: t('model.create_ok') }
         format.json { render :show, status: :created, location: @staff_addess }
       else
         format.html { render :new }

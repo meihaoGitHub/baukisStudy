@@ -19,6 +19,7 @@ class Staff::CustomersController < ApplicationController
 
   # GET /staffs/1/edit
   def edit
+    @staff = Staff::Staff.find(params[:id])
   end
 
   # POST /staffs
@@ -28,9 +29,8 @@ class Staff::CustomersController < ApplicationController
 
     respond_to do |format|
       if @staff.save
-        # format.html { redirect_to @staff, notice: 'Staff was successfully created.' }
-        # format.json { render :show, status: :created, location: @staff }
-        redirect_to action: 'index'
+        format.html { redirect_to @staff, notice: 'Staff was successfully created.' }
+        format.json { render :show, status: :created, location: @staff }
       else
         format.html { render :new }
         format.json { render json: @staff.errors, status: :unprocessable_entity }

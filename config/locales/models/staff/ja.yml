@@ -22,3 +22,6 @@
 ja:
   view:
      title: "職員トップページ-staff"
+  model:
+      update_ok: "更新成功"
+      create_ok: "作成しました。"
